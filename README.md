@@ -4,7 +4,7 @@
 ### Faculty of Education, The University of Hong Kong, Hong Kong
 Master’s Degree in
 Master of Science in Technology, Design and Leadership for Learning
-(Anticipated Graduation in Aug 2026)
+_(Anticipated Graduation in Aug 2026)_
 
 ### School of Creative Media, City University of Hong Kong, Hong Kong
 Bachelor’s Degree in
@@ -75,7 +75,7 @@ AR Educational Mobile Game @ Abertay University, Dundee, Scotland
 #### _Kabushikigaisha Limited @ Hong Kong | Contract | Jun 2020 - Dec 2020_
 - Responsible for providing feedback as a Mystery Customer after restaurant visits
 
-## Awards
+## Awards & Scholarships
 ### **Outstanding Female Artist Award**
 ##### _SIG Playful Media Showcase | Jun 2024_
 
