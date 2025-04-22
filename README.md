@@ -1,4 +1,4 @@
-# Game Developer | Project coordinator
+# Game Developer | Project Coordinator
 
 ## Education
 ### Faculty of Education, The University of Hong Kong, Hong Kong
