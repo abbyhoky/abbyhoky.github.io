@@ -47,8 +47,12 @@ AR Educational Mobile Game @ Abertay University, Dundee, Scotland
 
 ## Work Experience
 
+### **Research Assistant**
+#### _School of Creative Media, City University of Hong Kong @ Hong Kong | Part-time | Aug 2025 - Present_
+- Assist with an unannounced project
+
 ### **Project Executive**
-#### _Madhead @ Hong Kong | Full-time | Mar 2025 - Present_
+#### _Madhead @ Hong Kong | Full-time | Mar 2025 - Jun 2025_
   
 ### **STEM Tutor**
 #### _Tech Titan HK @ Hong Kong | Part-time | Mar 2024 - Present_
