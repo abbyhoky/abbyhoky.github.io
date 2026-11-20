@@ -1,0 +1,17 @@
+import type { Metadata } from "next";
+import { currentResearch } from "@/lib/content";
+import { SectionHeading } from "@/components/section-heading";
+export const metadata: Metadata = { title: "About" };
+const interests = ["Human-AI Interaction", "AI in Education", "AI Literacy", "AI Regulation & Ethics", "Educational Technology", "Internet Governance"];
+const skills = ["Python", "C# (Unity)", "C++", "SPSS", "Qualitative Research", "Thematic Analysis", "Mixed-Methods Research", "Speculative Design"];
+export default function AboutPage() {
+  return <div className="container-shell py-16 sm:py-20">
+    <p className="eyebrow mb-4">A little about me</p><h1 className="page-title">Researching the human side of technology.</h1>
+    <div className="mt-8 grid gap-12 lg:grid-cols-[1.4fr_.6fr]">
+      <div><h2 className="text-xl font-semibold dark:text-white">Biography</h2><div className="prose mt-4 dark:prose-invert"><p>I am a researcher and developer working at the intersection of Human-AI Interaction, AI in Education, Educational Technology and Interactive Media. My work combines mixed-methods research, educational technology design and game development to explore how people learn, create and collaborate with AI.</p><p>I hold an MSc in Technology, Design and Leadership for Learning from The University of Hong Kong, where I graduated with Distinction, and a BSc in Creative Media from City University of Hong Kong. I currently work as a Research Assistant at City University of Hong Kong on funded projects concerning generative AI as a design material and the responsible adoption and regulation of generative AI.</p><p>Alongside research, I develop interactive learning experiences and teach game development, programming and technology through hands-on, project-based approaches.</p></div>
+      <div className="mt-8 rounded-2xl border border-slate-200 p-6 dark:border-slate-800"><p className="detail-label">Education</p><div className="mt-4 space-y-5"><div><p className="font-semibold dark:text-white">The University of Hong Kong</p><p className="text-sm text-slate-500">MSc Technology, Design and Leadership for Learning · Distinction</p><p className="text-xs text-slate-400">2025–2026</p></div><div><p className="font-semibold dark:text-white">City University of Hong Kong</p><p className="text-sm text-slate-500">BSc Creative Media · Second Class Honours, Division I</p><p className="text-xs text-slate-400">2020–2024</p></div></div></div></div>
+      <aside className="space-y-8"><div><h2 className="text-lg font-semibold dark:text-white">Research interests</h2><div className="mt-4 flex flex-wrap gap-2">{interests.map((x)=><span className="tag" key={x}>{x}</span>)}</div></div><div><h2 className="text-lg font-semibold dark:text-white">Technical & research skills</h2><div className="mt-4 flex flex-wrap gap-2">{skills.map((x)=><span className="tag" key={x}>{x}</span>)}</div></div></aside>
+    </div>
+    <div className="mt-20"><SectionHeading eyebrow="Ongoing work" title="Current research" description="Research themes connected to my current work. Project descriptions are intentionally concise; further details can be added as they become public."/><div className="grid gap-4 md:grid-cols-3">{currentResearch.map((item,i)=><div key={item.title} className="surface-card p-6"><p className="text-xs font-bold text-accent">0{i+1}</p><h3 className="mt-4 font-semibold dark:text-white">{item.title}</h3><p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">{item.description}</p></div>)}</div></div>
+  </div>;
+}
